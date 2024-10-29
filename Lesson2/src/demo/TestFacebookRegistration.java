@@ -24,6 +24,7 @@ public class TestFacebookRegistration {
 		driver.findElement(By.xpath("//*[text()='Tạo tài khoản mới']")).click();
 		driver.findElement(By.name("lastname")).sendKeys("Hung");
 		driver.findElement(By.name("firstname")).sendKeys("Duong");
+		//driver.navigate().back();
 		Select sel1 = new Select(driver.findElement(By.id("day")));
 		sel1.selectByIndex(16);
 		Select sel2 = new Select(driver.findElement(By.id("month")));
@@ -40,12 +41,15 @@ public class TestFacebookRegistration {
 		driver.findElement(By.linkText("Tìm hiểu thêm")).click();
 
 		// Close all tabs except first one and switch to first tab:
-		ArrayList<String> switchTabs = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(switchTabs.get(0));
-		driver.switchTo().window(switchTabs.get(1));
-		driver.close();
-		
+//		ArrayList<String> switchTabs = new ArrayList<String>(driver.getWindowHandles());
 //		driver.switchTo().window(switchTabs.get(0));
+//		driver.switchTo().window(switchTabs.get(1));
+//
+//		driver.close();
+//
+//		driver.switchTo().window(switchTabs.get(0));
+		//driver.navigate().back();
+		driver.quit();
 	}
 
 }
