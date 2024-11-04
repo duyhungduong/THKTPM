@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-04T02:15:21Z" name="Booking_Functional" finished-at="2024-11-04T02:15:21Z" duration-ms="39">
+    <groups>
+    </groups>
+    <test started-at="2024-11-04T02:15:21Z" name="Test" finished-at="2024-11-04T02:15:21Z" duration-ms="39">
+      <class name="MySpiceProject.BookHolidayPackage">
+        <test-method signature="BookHolidayPackage_departure()[pri:0, instance:MySpiceProject.BookHolidayPackage@1b083826]" started-at="2024-11-04T09:15:21Z" name="BookHolidayPackage_departure" finished-at="2024-11-04T09:15:21Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHolidayPackage_departure -->
+        <test-method signature="BookHolidayPackage_destination()[pri:0, instance:MySpiceProject.BookHolidayPackage@1b083826]" started-at="2024-11-04T09:15:21Z" name="BookHolidayPackage_destination" finished-at="2024-11-04T09:15:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHolidayPackage_destination -->
+        <test-method signature="BookHolidayPackage_return()[pri:0, instance:MySpiceProject.BookHolidayPackage@1b083826]" started-at="2024-11-04T09:15:21Z" name="BookHolidayPackage_return" finished-at="2024-11-04T09:15:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHolidayPackage_return -->
+      </class> <!-- MySpiceProject.BookHolidayPackage -->
+      <class name="MySpiceProject.FlightStatus">
+        <test-method signature="FlightStatustesttescase()[pri:0, instance:MySpiceProject.FlightStatus@5b0abc94]" started-at="2024-11-04T09:15:21Z" name="FlightStatustesttescase" finished-at="2024-11-04T09:15:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightStatustesttescase -->
+      </class> <!-- MySpiceProject.FlightStatus -->
+      <class name="MySpiceProject.BookFlight">
+        <test-method signature="BookFlight_OneWay_Testcase1()[pri:0, instance:MySpiceProject.BookFlight@123f1134]" started-at="2024-11-04T09:15:21Z" name="BookFlight_OneWay_Testcase1" finished-at="2024-11-04T09:15:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookFlight_OneWay_Testcase1 -->
+        <test-method signature="BookFlight_OneWay_Testcase2()[pri:0, instance:MySpiceProject.BookFlight@123f1134]" started-at="2024-11-04T09:15:21Z" name="BookFlight_OneWay_Testcase2" finished-at="2024-11-04T09:15:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookFlight_OneWay_Testcase2 -->
+        <test-method signature="BookFlight_RoundTrip_Testcase1()[pri:0, instance:MySpiceProject.BookFlight@123f1134]" started-at="2024-11-04T09:15:21Z" name="BookFlight_RoundTrip_Testcase1" finished-at="2024-11-04T09:15:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookFlight_RoundTrip_Testcase1 -->
+        <test-method signature="BookFlight_RoundTrip_Testcase2()[pri:0, instance:MySpiceProject.BookFlight@123f1134]" started-at="2024-11-04T09:15:21Z" name="BookFlight_RoundTrip_Testcase2" finished-at="2024-11-04T09:15:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookFlight_RoundTrip_Testcase2 -->
+      </class> <!-- MySpiceProject.BookFlight -->
+      <class name="MySpiceProject.BookHotel">
+        <test-method signature="BookHotel_CheckOut()[pri:0, instance:MySpiceProject.BookHotel@7d68ef40]" started-at="2024-11-04T09:15:21Z" name="BookHotel_CheckOut" finished-at="2024-11-04T09:15:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHotel_CheckOut -->
+        <test-method signature="BookHotel_Checkin()[pri:0, instance:MySpiceProject.BookHotel@7d68ef40]" started-at="2024-11-04T09:15:21Z" name="BookHotel_Checkin" finished-at="2024-11-04T09:15:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHotel_Checkin -->
+        <test-method signature="BookHotel_DestinationCity()[pri:0, instance:MySpiceProject.BookHotel@7d68ef40]" started-at="2024-11-04T09:15:21Z" name="BookHotel_DestinationCity" finished-at="2024-11-04T09:15:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookHotel_DestinationCity -->
+      </class> <!-- MySpiceProject.BookHotel -->
+    </test> <!-- Test -->
+  </suite> <!-- Booking_Functional -->
+</testng-results>
