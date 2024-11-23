@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-1556081553\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">39 methods,   39 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(9.0, A)">TestDiemChu(9.0, A)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(9.5, A)">TestDiemChu(9.5, A)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(11.0, diem khong hop le)">TestDiemChu(11.0, diem khong hop le)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(7.0, B)">TestDiemChu(7.0, B)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(4.9, D)">TestDiemChu(4.9, D)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(5.5, C)">TestDiemChu(5.5, C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(6.5, C+)">TestDiemChu(6.5, C+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(5.2, D+)">TestDiemChu(5.2, D+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(7.9, B)">TestDiemChu(7.9, B)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(2.0, F)">TestDiemChu(2.0, F)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(6.9, C+)">TestDiemChu(6.9, C+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(4.5, D)">TestDiemChu(4.5, D)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(-1.0, diem khong hop le)">TestDiemChu(-1.0, diem khong hop le)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(10.0, A)">TestDiemChu(10.0, A)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(5.0, D+)">TestDiemChu(5.0, D+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(7.5, B)">TestDiemChu(7.5, B)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(4.0, D)">TestDiemChu(4.0, D)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(6.0, C)">TestDiemChu(6.0, C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(6.7, C+)">TestDiemChu(6.7, C+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(3.9, F)">TestDiemChu(3.9, F)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(5.4, D+)">TestDiemChu(5.4, D+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(8.9, B+)">TestDiemChu(8.9, B+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(6.4, C)">TestDiemChu(6.4, C)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(0.0, F)">TestDiemChu(0.0, F)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestDiemChu(8.5, B+)">TestDiemChu(8.5, B+)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(2.49, trung binh)">TestXepHang(2.49, trung binh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(2.5, kha)">TestXepHang(2.5, kha)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(3.59, gioi)">TestXepHang(3.59, gioi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(4.1, diem khong hop le)">TestXepHang(4.1, diem khong hop le)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(1.0, diem khong hop le)">TestXepHang(1.0, diem khong hop le)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(2.3, trung binh)">TestXepHang(2.3, trung binh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(4.0, xuat sac)">TestXepHang(4.0, xuat sac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(3.8, xuat sac)">TestXepHang(3.8, xuat sac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(2.0, trung binh)">TestXepHang(2.0, trung binh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(3.3, gioi)">TestXepHang(3.3, gioi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(3.2, gioi)">TestXepHang(3.2, gioi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(3.0, kha)">TestXepHang(3.0, kha)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(3.19, kha)">TestXepHang(3.19, kha)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="unit_testing.TestDanhGia" class="method navigator-link" hash-for-method="TestXepHang(3.6, xuat sac)">TestXepHang(3.6, xuat sac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">unit_testing.TestDanhGia</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(9.0, A)">
+                  </a> <!-- TestDiemChu(9.0, A) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(9.0, A)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(9.5, A)">
+                  </a> <!-- TestDiemChu(9.5, A) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(9.5, A)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(11.0, diem khong hop le)">
+                  </a> <!-- TestDiemChu(11.0, diem khong hop le) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(11.0, diem khong hop le)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(7.0, B)">
+                  </a> <!-- TestDiemChu(7.0, B) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(7.0, B)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(4.9, D)">
+                  </a> <!-- TestDiemChu(4.9, D) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(4.9, D)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(5.5, C)">
+                  </a> <!-- TestDiemChu(5.5, C) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(5.5, C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(6.5, C+)">
+                  </a> <!-- TestDiemChu(6.5, C+) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(6.5, C+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(5.2, D+)">
+                  </a> <!-- TestDiemChu(5.2, D+) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(5.2, D+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(7.9, B)">
+                  </a> <!-- TestDiemChu(7.9, B) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(7.9, B)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(2.0, F)">
+                  </a> <!-- TestDiemChu(2.0, F) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(2.0, F)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(6.9, C+)">
+                  </a> <!-- TestDiemChu(6.9, C+) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(6.9, C+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(4.5, D)">
+                  </a> <!-- TestDiemChu(4.5, D) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(4.5, D)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(-1.0, diem khong hop le)">
+                  </a> <!-- TestDiemChu(-1.0, diem khong hop le) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(-1.0, diem khong hop le)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(10.0, A)">
+                  </a> <!-- TestDiemChu(10.0, A) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(10.0, A)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(5.0, D+)">
+                  </a> <!-- TestDiemChu(5.0, D+) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(5.0, D+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(7.5, B)">
+                  </a> <!-- TestDiemChu(7.5, B) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(7.5, B)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(4.0, D)">
+                  </a> <!-- TestDiemChu(4.0, D) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(4.0, D)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(6.0, C)">
+                  </a> <!-- TestDiemChu(6.0, C) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(6.0, C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(6.7, C+)">
+                  </a> <!-- TestDiemChu(6.7, C+) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(6.7, C+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(3.9, F)">
+                  </a> <!-- TestDiemChu(3.9, F) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(3.9, F)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(5.4, D+)">
+                  </a> <!-- TestDiemChu(5.4, D+) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(5.4, D+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(8.9, B+)">
+                  </a> <!-- TestDiemChu(8.9, B+) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(8.9, B+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(6.4, C)">
+                  </a> <!-- TestDiemChu(6.4, C) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(6.4, C)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(0.0, F)">
+                  </a> <!-- TestDiemChu(0.0, F) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(0.0, F)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDiemChu(8.5, B+)">
+                  </a> <!-- TestDiemChu(8.5, B+) -->
+                  <span class="method-name">TestDiemChu</span>
+                  <span class="parameters">(8.5, B+)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(2.49, trung binh)">
+                  </a> <!-- TestXepHang(2.49, trung binh) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(2.49, trung binh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(2.5, kha)">
+                  </a> <!-- TestXepHang(2.5, kha) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(2.5, kha)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(3.59, gioi)">
+                  </a> <!-- TestXepHang(3.59, gioi) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(3.59, gioi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(4.1, diem khong hop le)">
+                  </a> <!-- TestXepHang(4.1, diem khong hop le) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(4.1, diem khong hop le)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(1.0, diem khong hop le)">
+                  </a> <!-- TestXepHang(1.0, diem khong hop le) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(1.0, diem khong hop le)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(2.3, trung binh)">
+                  </a> <!-- TestXepHang(2.3, trung binh) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(2.3, trung binh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(4.0, xuat sac)">
+                  </a> <!-- TestXepHang(4.0, xuat sac) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(4.0, xuat sac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(3.8, xuat sac)">
+                  </a> <!-- TestXepHang(3.8, xuat sac) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(3.8, xuat sac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(2.0, trung binh)">
+                  </a> <!-- TestXepHang(2.0, trung binh) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(2.0, trung binh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(3.3, gioi)">
+                  </a> <!-- TestXepHang(3.3, gioi) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(3.3, gioi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(3.2, gioi)">
+                  </a> <!-- TestXepHang(3.2, gioi) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(3.2, gioi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(3.0, kha)">
+                  </a> <!-- TestXepHang(3.0, kha) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(3.0, kha)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(3.19, kha)">
+                  </a> <!-- TestXepHang(3.19, kha) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(3.19, kha)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestXepHang(3.6, xuat sac)">
+                  </a> <!-- TestXepHang(3.6, xuat sac) -->
+                  <span class="method-name">TestXepHang</span>
+                  <span class="parameters">(3.6, xuat sac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse-1556081553\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;unit_testing.TestDanhGia&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(39);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestDiemChu')
+data.setCell(0, 2, 'unit_testing.TestDanhGia')
+data.setCell(0, 3, 14);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestDiemChu')
+data.setCell(1, 2, 'unit_testing.TestDanhGia')
+data.setCell(1, 3, 2);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestXepHang')
+data.setCell(2, 2, 'unit_testing.TestDanhGia')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestXepHang')
+data.setCell(3, 2, 'unit_testing.TestDanhGia')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestXepHang')
+data.setCell(4, 2, 'unit_testing.TestDanhGia')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestXepHang')
+data.setCell(5, 2, 'unit_testing.TestDanhGia')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestDiemChu')
+data.setCell(6, 2, 'unit_testing.TestDanhGia')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestXepHang')
+data.setCell(7, 2, 'unit_testing.TestDanhGia')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestXepHang')
+data.setCell(8, 2, 'unit_testing.TestDanhGia')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestDiemChu')
+data.setCell(9, 2, 'unit_testing.TestDanhGia')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestXepHang')
+data.setCell(10, 2, 'unit_testing.TestDanhGia')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestXepHang')
+data.setCell(11, 2, 'unit_testing.TestDanhGia')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TestXepHang')
+data.setCell(12, 2, 'unit_testing.TestDanhGia')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TestDiemChu')
+data.setCell(13, 2, 'unit_testing.TestDanhGia')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TestDiemChu')
+data.setCell(14, 2, 'unit_testing.TestDanhGia')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TestDiemChu')
+data.setCell(15, 2, 'unit_testing.TestDanhGia')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TestDiemChu')
+data.setCell(16, 2, 'unit_testing.TestDanhGia')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TestDiemChu')
+data.setCell(17, 2, 'unit_testing.TestDanhGia')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TestDiemChu')
+data.setCell(18, 2, 'unit_testing.TestDanhGia')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TestDiemChu')
+data.setCell(19, 2, 'unit_testing.TestDanhGia')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TestDiemChu')
+data.setCell(20, 2, 'unit_testing.TestDanhGia')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TestDiemChu')
+data.setCell(21, 2, 'unit_testing.TestDanhGia')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TestDiemChu')
+data.setCell(22, 2, 'unit_testing.TestDanhGia')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TestDiemChu')
+data.setCell(23, 2, 'unit_testing.TestDanhGia')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TestDiemChu')
+data.setCell(24, 2, 'unit_testing.TestDanhGia')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TestDiemChu')
+data.setCell(25, 2, 'unit_testing.TestDanhGia')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TestXepHang')
+data.setCell(26, 2, 'unit_testing.TestDanhGia')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TestXepHang')
+data.setCell(27, 2, 'unit_testing.TestDanhGia')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TestXepHang')
+data.setCell(28, 2, 'unit_testing.TestDanhGia')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TestDiemChu')
+data.setCell(29, 2, 'unit_testing.TestDanhGia')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TestDiemChu')
+data.setCell(30, 2, 'unit_testing.TestDanhGia')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TestDiemChu')
+data.setCell(31, 2, 'unit_testing.TestDanhGia')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TestXepHang')
+data.setCell(32, 2, 'unit_testing.TestDanhGia')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TestDiemChu')
+data.setCell(33, 2, 'unit_testing.TestDanhGia')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'TestDiemChu')
+data.setCell(34, 2, 'unit_testing.TestDanhGia')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'TestXepHang')
+data.setCell(35, 2, 'unit_testing.TestDanhGia')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'TestDiemChu')
+data.setCell(36, 2, 'unit_testing.TestDanhGia')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'TestDiemChu')
+data.setCell(37, 2, 'unit_testing.TestDanhGia')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'TestDiemChu')
+data.setCell(38, 2, 'unit_testing.TestDanhGia')
+data.setCell(38, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 41 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">unit_testing.TestDanhGia</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(9.0, A)</span>
+                <span class="method-start">4 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(9.5, A)</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(10.0, A)</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(8.5, B+)</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(8.9, B+)</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(7.0, B)</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(7.5, B)</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(7.9, B)</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(6.5, C+)</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(6.7, C+)</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(6.9, C+)</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(5.5, C)</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(6.0, C)</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(6.4, C)</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(5.0, D+)</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(5.2, D+)</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(5.4, D+)</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(4.0, D)</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">46 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">46 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(4.5, D)</span>
+                <span class="method-start">46 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(4.9, D)</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">52 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(0.0, F)</span>
+                <span class="method-start">52 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(2.0, F)</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(3.9, F)</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(11.0, diem khong hop le)</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDiemChu(-1.0, diem khong hop le)</span>
+                <span class="method-start">56 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(3.6, xuat sac)</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(3.8, xuat sac)</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(4.0, xuat sac)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(3.2, gioi)</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">103 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(3.3, gioi)</span>
+                <span class="method-start">103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">104 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(3.59, gioi)</span>
+                <span class="method-start">104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(2.5, kha)</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">110 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(3.0, kha)</span>
+                <span class="method-start">110 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(3.19, kha)</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(2.0, trung binh)</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(2.3, trung binh)</span>
+                <span class="method-start">113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(2.49, trung binh)</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(4.1, diem khong hop le)</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">121 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestXepHang(1.0, diem khong hop le)</span>
+                <span class="method-start">121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterTest</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
